@@ -1,0 +1,15 @@
+<div id="headerBox" data-ng-controller="header as vm" layout="column">
+    <div id="brandingBar" layout="row">
+        <div id="siteImageBox" class="siteImageBox">
+            <img id="siteImageDesktop" class="logo" src="img/logo-d-sm.png" width="217" height="51" alt="KOWORX Demo" />
+        </div>
+        <div id="siteTitleBox" class="siteTitleBox" layout="column">
+            <div id="appTitle">
+                <h5><a href="{{vm.appUrl}}" data-ng-bind-html="vm.appTitle"></a></h5>
+            </div>
+            <div id="pageTitle">
+                <h4>{{pageTitle}}</h4>
+            </div>
+        </div>
+    </div>
+</div>

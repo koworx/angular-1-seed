@@ -1,0 +1,40 @@
+{
+  "name": "angular-1-seed",
+  "version": "0.1.0",
+  "description": "KOWORX Angular Seed Project",
+  "moduleType": [
+    "amd"
+  ],
+  "authors": [
+    "Jiri Sunega"
+  ],
+  "license": "MIT",
+  "homepage": "www.koworx.net",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "~2.10.6",
+    "xxhashjs": "*",
+    "lazy.js": "~0.4.0",
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.3",
+    "angular-route": "~1.4.3",
+    "angular-sanitize": "~1.4.3",
+    "angular-cookies": "~1.4.3",
+    "angular-animate": "~1.4.3",
+    "angular-aria": "~1.4.3",
+    "angular-messages": "~1.4.3",
+    "angular-material": "master",
+    "fontawesome": "~4.3.0",
+    "font-awesome-animation": "^0.0.8"
+  },
+  "devDependencies": {
+    "jasmine": "~2.2.1",
+    "squire": "~0.2.0"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    
+    <!-- bower:css -->
+    <!-- endbower -->
+
+    <!-- build:css(./.) /css/styles.css -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- endbuild -->
+</head>
+
+<body data-ng-app="kx.seed">
+    <div id="page" class="page">
+        <div id="chrome" data-ng-include="'ux/chrome.html'"></div>
+        <div id="workspace">
+            <div id="header" data-ng-include="'ux/header.html'"></div>
+            <div id="content">
+                <div id="sidenav" data-ng-include="'ux/sidenav.html'" data-ng-show="false"></div>
+                <div id="contentBox" aria-live="polite" aria-relevant="all">
+                    <div id="shell" data-ng-include="'ux/shell.html'"></div>
+                </div>
+            </div>
+        </div>
+        <div data-ng-include="'ux/busy.html'"></div>
+    </div>
+    
+    <!-- bower:js -->
+    <!-- endbower -->
+
+    <script src="/lib/koworx/kx.fwk-84b67b11.js"></script>
+
+    <!-- build:js(./.) /js/app.js -->
+    <!-- inject:js -->
+    <!-- endinject -->
+
+    <!-- inject:tmpl -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+</body>
+
+</html>

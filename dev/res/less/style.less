@@ -1,0 +1,144 @@
+@color_kxblue: #7875A1;
+@color_kxhead: #3D3B57;
+@color_kxbckg: #C5C4D7;
+@color_blue: #1171a3;
+@color_success: #43c83c;
+@color_warning: #f88529;
+@color_important: #fa3031;
+@color_violet: #932ab6;
+
+@media only screen and (min-width: 1001px) {
+    .page {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .page {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.chromeBar {
+    height: 36px;
+    min-height: 36px;
+    max-height: 36px;
+    vertical-align: middle;
+    text-align: right;
+    font-style: normal;
+    background-color: lighten(@color_kxhead, 5%);
+    color: #fff;
+}
+
+.chromeButton {
+    box-sizing: border-box;
+    color: currentColor;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    outline: none;
+    border: 0;
+    display: inline-table;
+    padding: 0 10px;
+    line-height: 36px;
+    min-height: 36px;
+    background: transparent;
+    white-space: nowrap;
+    min-width: 88px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.chromeButton *,
+.chromeButton *:before,
+.chromeButton *:after {
+    box-sizing: border-box;
+}
+
+.chromeButton:hover,
+.chromeButton:focus {
+    background-color: darken(@color_kxblue, 10%);
+    text-decoration: none;
+}
+
+.siteImageBox {
+    padding: 19px 15px;
+}
+
+.siteTitleBox {
+    padding: 19px 15px;
+    color: lighten(@color_kxbckg, 10%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    color: lighten(@color_warning, 20%);
+    padding: 2px 0;
+    margin: 2px 0;
+}
+
+h1 {
+    font-size: 2.286em;
+}
+
+h2 {
+    font-size: 1.75em;
+
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+h5 {
+    font-size: 1.214em;
+}
+
+h6 {
+    font-size: 1.1em;
+}
+
+a {
+    color: lighten(@color_kxblue, 20%);
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: darken(@color_kxblue, 40%);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    outline: 0;
+}
+
+#header {
+  background-color: @color_kxhead;
+}
+
+md-content {
+    background-color: lighten(@color_kxbckg, 10%);
+}

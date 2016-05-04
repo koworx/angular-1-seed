@@ -1,0 +1,10 @@
+<div id="sideNavBox" data-ng-controller="sidenav as vm">
+  <nav>
+    <ul>
+      <li data-ng-repeat="route in vm.navRoutes" data-ng-class="{selected: vm.isCurrent(route)}">
+        <a href="#{{route.originalPath}}" data-ng-bind-html="route.settings.content"
+           data-ng-class="{selected:vm.isCurrent(route)}"></a>
+      </li>
+    </ul>
+  </nav>
+</div>

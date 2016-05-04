@@ -1,0 +1,11 @@
+<div ng-controller="home as vm">
+    <md-content layout-padding>
+        <md-input-container class="md-block">
+            <label>What is your name?</label>
+            <input type="text" data-ng-model="vm.name">
+        </md-input-container>
+        <div flex class="greeting">
+            Hello {{vm.name}}
+        </div>
+    </md-content>
+</div>
