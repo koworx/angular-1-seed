@@ -2,7 +2,7 @@
 
 This repository provides a standard AngularJS project structure, dependencies and Gulp development workflow
 
-Please read the [Gulp Workflow](#Gulp-Workflow) section to get more details about the pre-configured Gulp tasks
+Please read the [Gulp Workflow](#gulp-workflow) section to get more details about the pre-configured Gulp tasks
 
 ## Getting Started
 
@@ -11,12 +11,12 @@ To get you started you have to install prerequisites, clone the angular-1-seed r
 ### Prerequisites
 
 You need git to clone the angular-seed repository. You can get git from
-[http://git-scm.com/](git)
+[http://git-scm.com/][git]
 
 The development workflow uses a number of node.js tools, and therefore you must have node.js and
-its package manager (npm) installed. You can get them from [http://nodejs.org/](node)
+its package manager (npm) installed. You can get them from [http://nodejs.org/][node]
 
-The client side libraries are managed by [bower](bower). You can install it by running the command below
+The client side libraries are managed by [bower][bower]. You can install it by running the command below
 
 ```
 npm install -g bower
@@ -24,7 +24,7 @@ npm install -g bower
 
 ### Clone repository
 
-Clone the angular-1-seed repository using [git](git):
+Clone the angular-1-seed repository using [git][git]:
 
 ```bash
 git clone https://github.com/koworx/angular-1-seed.git
@@ -128,7 +128,7 @@ Please find an overview of the project folder structure below.
  └ node_modules - automatically created and managed by NPM - please do not modify by hand
 ```
 
-## Gulp Workflow
+## <a name="gulp-workflow"></a>Gulp Workflow
 
 Please find a brief description of the available Gulp tasks, used plugins, and placeholders below
 
