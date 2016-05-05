@@ -11,10 +11,16 @@ To get you started you have to install prerequisites, clone the angular-1-seed r
 ### Prerequisites
 
 You need git to clone the angular-seed repository. You can get git from
-[http://git-scm.com/](git).
+[http://git-scm.com/](git)
 
 The development workflow uses a number of node.js tools, and therefore you must have node.js and
-its package manager (npm) installed. You can get them from [http://nodejs.org/](node).
+its package manager (npm) installed. You can get them from [http://nodejs.org/](node)
+
+The client side libraries are managed by [bower](bower). You can install it by running the command below
+
+```
+npm install -g bower
+```
 
 ### Clone repository
 
@@ -216,7 +222,7 @@ Please find a brief description of the available Gulp tasks, used plugins, and p
     <!-- bower:js -->  ### wiredep insertion point for all js files found in the bower client side libraries
     <!-- endbower -->  ### wiredep insertion point end
 
-    <script src="/lib/kx-fwk/kx.fwk-84b67b11.js"></script>
+    <script src="/lib/koworx/kx.fwk-84b67b11.js"></script>
 
     <!-- build:js(./.) /js/app.js --> ### useref js assets block which will be concatenated into a single js file
     <!-- inject:js -->                ###   inject insertion point for all custom js files

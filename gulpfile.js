@@ -132,7 +132,7 @@ gulp.task('injectRef', gulp.series('prepareAll', function() {
     var rootIdx = args._[0].toLowerCase().indexOf('prod') === 0 ? 0 : 4;
 
     log('Injecting source code and stylesheet references', $.util.colors.green);
-    console.log('Args: %j', args._[0]);
+
     return gulp
         .src(cfg.idxSrc)
         .pipe(wiredep(cfg.wiredep()))
@@ -211,7 +211,7 @@ function serve(isDev) {
     }
 
     return $.nodemon(nodeOptions)
-        .on('restart', function(ev) {
+        .on('restart', function() {
             log('*** nodemon restarted');
             setTimeout(function() {
                 sync.notify('reloading now ...');
